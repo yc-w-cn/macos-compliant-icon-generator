@@ -12,6 +12,10 @@
 
 该工具的目标是简化图标生成过程，使其符合 Apple 的设计规范，从而在 macOS 上看起来更佳。
 
+## App Icons
+
+![App Icon](public/app-icons.png)
+
 ## 安装
 
 ```bash
@@ -19,3 +23,7 @@ git clone https://github.com/yc-w-cn/macos-compliant-icon-generator.git
 cd macos-compliant-icon-generator
 pnpm install
 ```
+
+## 参考资料
+
+[Why is my app icon bigger than the others in the macOS dock?](https://stackoverflow.com/questions/71118094/why-is-my-app-icon-bigger-than-the-others-in-the-macos-dock)
