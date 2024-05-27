@@ -1,7 +1,29 @@
 {
   "name": "macos-compliant-icon-generator",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yc-w-cn/macos-compliant-icon-generator.git"
+  },
+  "author": "Yuchen Wang <contact@wangyuchen.cn>",
+  "bugs": {
+    "url": "https://github.com/yc-w-cn/macos-compliant-icon-generator/issues"
+  },
+  "homepage": "https://github.com/yc-w-cn/macos-compliant-icon-generator",
+  "keywords": [
+    "macos",
+    "icon-generator",
+    "human-interface-guidelines",
+    "hig",
+    "apple-design-resources",
+    "icon-design",
+    "image-processing",
+    "rounded-rectangle",
+    "icon-resizing",
+    "graphic-design",
+    "mit-license"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
