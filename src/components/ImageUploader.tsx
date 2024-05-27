@@ -5,6 +5,7 @@ import { useDropzone } from "react-dropzone";
 import NextImage from "next/image";
 import { DownloadIcon, UploadIcon } from "lucide-react";
 import { Button } from "./ui/button";
+import { baseUrl } from "@/lib/contants";
 
 const ImageUploader: React.FC = () => {
   const [image, setImage] = useState<string | null>(null);
@@ -105,7 +106,7 @@ const ImageUploader: React.FC = () => {
           </div>
         )}
         <NextImage
-          src={image || "/placeholder.svg"}
+          src={image || baseUrl + "/placeholder.svg"}
           width={1024}
           height={1024}
           alt={image ? "Preview" : "Placeholder"}
