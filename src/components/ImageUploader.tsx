@@ -110,7 +110,7 @@ const ImageUploader: React.FC = () => {
           width={1024}
           height={1024}
           alt={image ? "Preview" : "Placeholder"}
-          className="w-[81.25%] aspect-square rounded-[17.875%] shadow-md"
+          className="w-[81.25%] aspect-square rounded-[17.875%]"
         />
       </div>
       {roundedImage && (
