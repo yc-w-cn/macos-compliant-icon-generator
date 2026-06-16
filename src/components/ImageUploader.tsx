@@ -26,7 +26,7 @@ const ImageUploader: React.FC = () => {
           const canvas = document.createElement("canvas");
           const ctx = canvas.getContext("2d");
           if (ctx) {
-            const canvasSize = 1000;
+            const canvasSize = 1024;
             const contentSize = 832;
             const cornerRadius = (22 / 100) * contentSize;
             const offsetX = (canvasSize - contentSize) / 2;
